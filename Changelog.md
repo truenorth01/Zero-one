@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 0.4.1 — 21 September 2026
+- Sources: refs 71–75 from 17–21 Sep literature scan (RSI economics; ModularRSI; BG2-Aphasia NCT07791459; Precision 4096-ch intraoperative µECoG; speech-imagery replicability critique)
+- Evidence: automated R&D block gains ModularRSI + “not yet self-sustaining” economics ([71](Sources.md#ref-71), [72](Sources.md#ref-72)); Precision temporary-array block gains peer-reviewed 4096-channel intraoperative use ([74](Sources.md#ref-74)); speech block adds aphasia registry indication and imagery anti-hype ([73](Sources.md#ref-73), [75](Sources.md#ref-75))
+- README: automated R&D glance sentence only (Evidence-carried); version bump to 0.4.1
+
+
 ## Version 0.4 — 17 September 2026
 - Editorial restructure: Evidence is the claim ledger; homepage is a strict summary of Evidence
 - Sources: all refs 1–70 reformatted to machine-checkable fields (authors/org · year · venue · one-line finding · URL · status tag); anchors kept as `<a id="ref-N"></a>**N.**`
