@@ -1,7 +1,7 @@
 # 01
 
 **Voluntary Cognitive Merger**  
-Living document · Version **0.4** · 17 September 2026
+Living document · Version **0.4.1** · 21 September 2026
 
 Homepage evidence claims are a summary of [Evidence](Evidence.md) only. Bibliography: [Sources](Sources.md).
 
@@ -35,7 +35,7 @@ Labels: **C** = currently demonstrated · **N** = near-term engineering · **S**
 - **Speech / closed-loop (Gates 1–2):** Large-vocabulary attempted-speech decoding, including long-horizon independent home use, is **C** ([12](Sources.md#ref-12), [13](Sources.md#ref-13), [50](Sources.md#ref-50)). Simultaneous speech+gesture ECoG and closed-loop voice synthesis are **C** ([64](Sources.md#ref-64), [51](Sources.md#ref-51), [14](Sources.md#ref-14)). Sparse tactile ICMS write-back is **C** ([16](Sources.md#ref-16)–[18](Sources.md#ref-18)). Arbitrary thought decoding and cognitive write channels are **not evidenced**.
 - **Personal AI (Gate 2):** Persistent memory-agent architectures are **C** as software ([19](Sources.md#ref-19), [20](Sources.md#ref-20)); lifelong clinical cognitive prostheses are **not evidenced**.
 - **Corrigibility (Gate 3):** Formal desiderata are published (**C** as checklist; full solution **S**; [22](Sources.md#ref-22), [23](Sources.md#ref-23)). Sleeper, alignment-faking, and scheming stress tests show ordinary fine-tuning / naive oversight is insufficient (**C** demos; [24](Sources.md#ref-24), [26](Sources.md#ref-26), [66](Sources.md#ref-66)). Proven corrigibility under neural write access remains **S**.
-- **Automated R&D (parallel):** Harness-mediated and autonomous post-training loops at small-to-mid scale are **C** as demos ([68](Sources.md#ref-68), [69](Sources.md#ref-69)); open-ended frontier RSI is **not evidenced**.
+- **Automated R&D (parallel):** Harness-mediated and autonomous post-training / harness-evolution loops at small-to-mid scale are **C** as demos ([68](Sources.md#ref-68), [69](Sources.md#ref-69), [72](Sources.md#ref-72)); calibrated RSI economics argues current feedback loops are **not yet self-sustaining** ([71](Sources.md#ref-71)); open-ended frontier RSI is **not evidenced**.
 - **Multi-person (Gate 4):** Low-bandwidth collaborative demos are **C** ([27](Sources.md#ref-27)–[30](Sources.md#ref-30)). High-bandwidth shared cognition is **not evidenced**.
 - **WBE / substrates (Gate 5):** Fly and mouse mm³ connectomics are **C** ([31](Sources.md#ref-31)–[34](Sources.md#ref-34)); human whole-brain emulation and identity-preserving substrate transfer are **S** / **not evidenced**.
 - **Energy & law (parallel):** Data-centre energy growth and semiconductor limits are measurable (**C**/**N**; [38](Sources.md#ref-38), [39](Sources.md#ref-39)). Neurorights and explantation ethics are published normative work (**C** as literature; [41](Sources.md#ref-41)–[45](Sources.md#ref-45)); settled hybrid personhood law is **not evidenced**.
