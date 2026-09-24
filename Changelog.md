@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 0.4.3 — 24 September 2026
+- Open-problems: authority-prose voice pass — continuous analytical paragraphs; numbered design-instrument lists retained only where each item is a distinct mechanism; substance and Sources cites unchanged
+- Roadmap: authority-prose voice pass — gate sections as full paragraphs (need / what counts / failure mode); parallel constraints and evidence-at-a-glance in complete sentences; five-gate 2026–2036 frame and C/N/S labels unchanged; longer-term remains Speculative / not a schedule
+- Evidence and Sources: untouched
+- README: version/date bump only (0.4.3 · 24 September 2026); no other homepage prose rewritten
+
 ## Version 0.4.2 — 24 September 2026
 - Sources: restored full bibliography after placeholder wipe; appended refs 76–78 (AIDE² research-agent RSI; Trusting Trust revisited eval contamination; RRSI regularized harness RSI)
 - Evidence: Automated R&D block gains AIDE² + RRSI; corrigibility block cross-links RSI contamination PoCs ([76](Sources.md#ref-76)–[78](Sources.md#ref-78))

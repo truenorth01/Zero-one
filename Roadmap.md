@@ -2,7 +2,7 @@ The [homepage](README.md) is the short spine. This page is the decade detail.
 
 # Roadmap (2026–2036)
 
-This is **scaffolding to open the door**, not biological dissolution or a scheduled far-future end-state. Anything beyond early coupling remains **S** and cannot be timed. The next ten years determine whether early coupling is even technically and institutionally available.
+This is scaffolding to open the door, not biological dissolution or a scheduled far-future end-state. Anything beyond early coupling remains **S** and cannot be timed. The next ten years determine whether early coupling is even technically and institutionally available.
 
 Roadmap gates are design requirements, not demonstrated milestones. Evidence snapshots live in [Evidence](Evidence.md). Maturity legend: **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative.
 
@@ -10,69 +10,43 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 ## Gate 1 — 2026–2028: High-bandwidth BCIs (**N**, with some **C** precursors)
 
-**Need:** Reliable, long-term, high-channel-count interfaces that read and write neural activity with low latency and acceptable safety — invasive and/or high-fidelity non-invasive — usable outside pure lab conditions.
-
-**Include:** Stable multi-year implants or durable non-invasive alternatives; closed-loop systems where AI interprets intention and delivers precise sensory or cognitive feedback.
-
-**Without this:** There is no real merge — only external tools.
-
-*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
+What is needed is reliable, long-term, high-channel-count interfaces that read and write neural activity with low latency and acceptable safety—invasive and/or high-fidelity non-invasive—usable outside pure lab conditions. That package includes stable multi-year implants or durable non-invasive alternatives, and closed-loop systems in which AI interprets intention and delivers precise sensory or cognitive feedback. Without this gate there is no real merge, only external tools. Current evidence snapshots are in [Evidence](Evidence.md) (bibliography: [Sources](Sources.md)).
 
 ---
 
 ## Gate 2 — 2027–2030: Personal AI as continuous cognitive partners (**N**)
 
-**Need:** Agents that maintain persistent models of an individual’s goals, knowledge, values, and cognitive patterns across years; real-time low-friction collaboration (thought-to-text / thought-to-action / shared working memory); limited neural coupling so information can enter perceptual or decision pathways rather than only screens.
-
-**Outcome:** First functional human–AI **dyads**.
-
-*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
+What is needed are agents that maintain persistent models of an individual’s goals, knowledge, values, and cognitive patterns across years; real-time low-friction collaboration (thought-to-text, thought-to-action, shared working memory); and limited neural coupling so information can enter perceptual or decision pathways rather than only screens. The outcome that would count is the first functional human–AI dyads. Current evidence snapshots are in [Evidence](Evidence.md) (bibliography: [Sources](Sources.md)).
 
 ---
 
 ## Gate 3 — 2028–2032: Corrigibility and safety for tightly coupled systems (**N** / open research)
 
-**Need:** Methods to keep high-capability AI interruptible and goal-stable even with partial access to human cognitive state; mechanisms that prevent the AI side from optimizing against the human’s long-term interests; enforceable protocols for consent, data ownership, and the right to disconnect.
-
-**Without this:** Deeper integration is too dangerous to scale.
-
-*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
+What is needed are methods to keep high-capability AI interruptible and goal-stable even with partial access to human cognitive state; mechanisms that prevent the AI side from optimizing against the human’s long-term interests; and enforceable protocols for consent, data ownership, and the right to disconnect. Without this gate, deeper integration is too dangerous to scale. Current evidence snapshots are in [Evidence](Evidence.md) (bibliography: [Sources](Sources.md)).
 
 ---
 
 ## Gate 4 — 2030–2034: Small-group networked systems (**N** → early **S**)
 
-**Need:** Multiple people with high-bandwidth interfaces sharing limited AI-mediated cognitive workspaces; tests of collective problem-solving, shared sensory environments, and early private simulations; empirical mapping of how identity, agency, and memory persist or change under partial linking.
-
-**Outcome:** First step that resembles a **collective** rather than isolated dyads.
-
-*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
+What is needed are multiple people with high-bandwidth interfaces sharing limited AI-mediated cognitive workspaces; tests of collective problem-solving, shared sensory environments, and early private simulations; and empirical mapping of how identity, agency, and memory persist or change under partial linking. The outcome that would count is the first step that resembles a collective rather than isolated dyads. Current evidence snapshots are in [Evidence](Evidence.md) (bibliography: [Sources](Sources.md)).
 
 ---
 
 ## Gate 5 — 2032–2036: Substrate-transition foundations (**S**-leaning research infrastructure)
 
-**Need:** Serious funding for whole-brain emulation research, synaptic-scale mapping, alternative computational substrates; energy/compute/cooling for large persistent mind-like processes; legal/social frameworks that treat partial or full cognitive uploads as **continuations of persons**, not copies or property.
-
-Only after these would gradually shifting more cognition off biological hardware become conceivable — still not guaranteed.
-
-*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
+What is needed is serious funding for whole-brain emulation research, synaptic-scale mapping, and alternative computational substrates; energy, compute, and cooling for large persistent mind-like processes; and legal and social frameworks that treat partial or full cognitive uploads as continuations of persons, not copies or property. Only after these foundations would gradually shifting more cognition off biological hardware become conceivable—still not guaranteed. Current evidence snapshots are in [Evidence](Evidence.md) (bibliography: [Sources](Sources.md)).
 
 ---
 
 ## Parallel constraints (entire decade)
 
-- Primary optimization target remains **accurate modeling of reality**.
-- **Competitive pluralism** of interfaces and frontier models.
-- Continuous measurement of **goal drift** and **interruption robustness**.
-- Meaningful **exit rights** at every stage.
-- Energy and compute scaling treated as first-class constraints, not afterthoughts.
+Across the decade, several constraints run in parallel with the gates rather than after them. The primary optimization target remains accurate modeling of reality. Competitive pluralism of interfaces and frontier models is required. Continuous measurement of goal drift and interruption robustness is required. Meaningful exit rights apply at every stage. Energy and compute scaling are treated as first-class constraints, not afterthoughts.
 
 ---
 
 ## Evidence at a glance
 
-What the [Evidence](Evidence.md) chapter currently supports, in brief. Full prose and citations: [Evidence](Evidence.md) · bibliography: [Sources](Sources.md).
+What the [Evidence](Evidence.md) chapter currently supports, in brief. Full prose and citations live in [Evidence](Evidence.md); the bibliography is [Sources](Sources.md).
 
 - **BCI (Gate 1):** Clinical invasive and endovascular systems exist (**C**); merge-grade bandwidth and peer-reviewed pivotal packages for the newest wireless systems do not. Non-invasive paths are **N** in the lab and **S** for merge-grade I/O.
 - **Speech / closed-loop (supports Gates 1–2):** Large-vocabulary attempted-speech decoding and early tactile write-back are **C**. Arbitrary thought decoding and rich cognitive write channels are not evidenced.
