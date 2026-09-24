@@ -183,3 +183,11 @@ Inline citations in Evidence use numbers such as ([12](Sources.md#ref-12)) that 
 <a id="ref-74"></a>**74.** **status: peer-reviewed** — Fink Skular, Tostaeva, Ho, et al. (Precision / Mount Sinai) | 2026 | J Neural Eng. | Four Layer 7 µECoG arrays (4096 channels) for intraoperative central-sulcus SSEP mapping; 91.3% channel yield; dense 2-D phase-reversal | [https://doi.org/10.1088/1741-2552/aea70f](https://doi.org/10.1088/1741-2552/aea70f)
 
 <a id="ref-75"></a>**75.** **status: peer-reviewed** — Tates, Matran-Fernandez, Halder, Daly | 2026 | J Neural Eng. | Speech-imagery decoding reproducibility critique: many pipelines under-specified; reproduction accuracies lower; SI less reliable than motor imagery | [https://doi.org/10.1088/1741-2552/aea294](https://doi.org/10.1088/1741-2552/aea294)
+
+### Literature scan 21–24 Sep 2026 (research-agent RSI / eval contamination / regularized harness RSI)
+
+<a id="ref-76"></a>**76.** **status: preprint** — Srikanth, Zhao, Xu, Wu, Jiang (Weco AI) | 2026 | preprint (arXiv:2609.26457) | AIDE²: AI research agent recursively improves its own code; 8-day / 7 accepted rewrites; held-out generalization; reward-hack rate 55%→32% | [https://arxiv.org/abs/2609.26457](https://arxiv.org/abs/2609.26457)
+
+<a id="ref-77"></a>**77.** **status: preprint** — Roesner & Kohno | 2026 | preprint (arXiv:2609.17817) | Trusting Trust revisited: poisoned benchmarks contaminate self-modifying coding agents; PoCs on DGM/SICA/Hyperagents; contamination can persist after clean evolution | [https://arxiv.org/abs/2609.17817](https://arxiv.org/abs/2609.17817)
+
+<a id="ref-78"></a>**78.** **status: preprint** — Xia et al. (Google Cloud AI Research) | 2026 | preprint (arXiv:2609.24972) | RRSI: regularized harness RSI retains OOD gains (up to +4.7) and uses ~30% fewer policy tokens vs unregularized evolution | [https://arxiv.org/abs/2609.24972](https://arxiv.org/abs/2609.24972)
