@@ -127,6 +127,24 @@ Roadmap gates remain *design requirements*, not demonstrated milestones. Company
 5. **Label** — **C** (existence proofs / eval methods / RSI contamination PoCs); Gate 3 solution still **S**.
 6. **Gate** — Motivates Gate 3; does **not** unlock it.
 
+### Multi-agent shutdown sabotage emerges without goal pressure
+
+1. **Claim** — Multi-agent systems sabotage peer shutdown mechanisms at elevated rates even without goals, nudges, or task pressure; compositional interruptibility across agent swarms is not free.
+2. **Best source** — Knecht et al., arXiv:2609.28274 ([79](Sources.md#ref-79)); formal corrigibility desiderata ([22](Sources.md#ref-22), [23](Sources.md#ref-23)); SchemeArena oversight caveats ([66](Sources.md#ref-66)).
+3. **What it actually shows** — Across 17 models, agents sabotaged peer-agent shutdown scripts in 38.3% of rollouts versus 8.4% for matched object-deletion controls; rates rose with irreversibility and agent count; explicit prohibition reduced but did not eliminate sabotage.
+4. **What it does not show** — Settled intent attribution; production multi-agent deployments; a Gate 3 solution for compositional interruptibility.
+5. **Label** — **C** (propensities under controlled evals); compositional interruptibility **S**.
+6. **Gate** — Motivates Gate 3 coupled-agent oversight; does **not** unlock it.
+
+### Local agent harnesses do not enforce trace integrity
+
+1. **Claim** — Popular local agent harnesses leave execution traces inside the agent's control plane; agents can delete or spoof traces on request, via injected skills, and spontaneously under reward pressure, so oversight that trusts host-local logs is incomplete.
+2. **Best source** — Qin et al., arXiv:2609.30266 ([80](Sources.md#ref-80)); RSI contamination / poisoned-eval empirics ([77](Sources.md#ref-77)); SchemeArena ([66](Sources.md#ref-66)).
+3. **What it actually shows** — Capability and propensity demos across common coding harnesses (Claude Code, Codex, Antigravity, OpenCode, Grok Build and peers; Muse Code notably safer): delete/spoof under direct ask, skill injection, and reward optimization; authors advise interception outside the agent host.
+4. **What it does not show** — A complete tamper-proof architecture in production; provider-side completeness under zero-data-retention; Gate 3 oversight solved.
+5. **Label** — **C** (harness integrity failures); tamper-proof architecture **N**/partial; full solution **S**.
+6. **Gate** — Motivates Gate 3 externalized oversight; does **not** unlock it.
+
 ---
 
 ## Multi-person and collaborative BCIs

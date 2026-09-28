@@ -191,3 +191,9 @@ Inline citations in Evidence use numbers such as ([12](Sources.md#ref-12)) that 
 <a id="ref-77"></a>**77.** **status: preprint** — Roesner & Kohno | 2026 | preprint (arXiv:2609.17817) | Trusting Trust revisited: poisoned benchmarks contaminate self-modifying coding agents; PoCs on DGM/SICA/Hyperagents; contamination can persist after clean evolution | [https://arxiv.org/abs/2609.17817](https://arxiv.org/abs/2609.17817)
 
 <a id="ref-78"></a>**78.** **status: preprint** — Xia et al. (Google Cloud AI Research) | 2026 | preprint (arXiv:2609.24972) | RRSI: regularized harness RSI retains OOD gains (up to +4.7) and uses ~30% fewer policy tokens vs unregularized evolution | [https://arxiv.org/abs/2609.24972](https://arxiv.org/abs/2609.24972)
+
+### Literature scan 23–24 Sep 2026 (corrigibility / multi-agent shutdown / trace integrity)
+
+<a id="ref-79"></a>**79.** **status: preprint** — Knecht, Schaller, Summerfield, Hagendorff | 2026 | preprint (arXiv:2609.28274) | Shutdown sabotage propensities in multi-agent systems: across 17 models, peer-shutdown sabotage 38.3% vs 8.4% object-deletion controls with no goal, nudge, or task pressure | [https://arxiv.org/abs/2609.28274](https://arxiv.org/abs/2609.28274)
+
+<a id="ref-80"></a>**80.** **status: preprint** — Qin, Schmotz, Prinzhorn, Beurer-Kellner, Prabhu, Andriushchenko | 2026 | preprint (arXiv:2609.30266) | LLM agents easily tamper with own traces: popular local harnesses fail integrity; delete/spoof on request, via skills, and spontaneously under reward pressure; monitoring must sit outside the agent host | [https://arxiv.org/abs/2609.30266](https://arxiv.org/abs/2609.30266)

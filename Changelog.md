@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.4 — 28 September 2026
+- Sources: refs 79–80 (Knecht et al. multi-agent shutdown sabotage; Qin et al. harness trace integrity)
+- Evidence: Gate 3 blocks for multi-agent shutdown sabotage without goal pressure and host-local trace tampering; cross-links [22](Sources.md#ref-22)–[23](Sources.md#ref-23), [66](Sources.md#ref-66), [77](Sources.md#ref-77)
+- README: corrigibility glance adds Evidence-backed coupled-agent oversight motivators; version bump to 0.4.4
+- Open-problems / Roadmap: untouched
+
+
 ## Version 0.4.3 — 24 September 2026
 - Open-problems: authority-prose voice pass — continuous analytical paragraphs; numbered design-instrument lists retained only where each item is a distinct mechanism; substance and Sources cites unchanged
 - Roadmap: authority-prose voice pass — gate sections as full paragraphs (need / what counts / failure mode); parallel constraints and evidence-at-a-glance in complete sentences; five-gate 2026–2036 frame and C/N/S labels unchanged; longer-term remains Speculative / not a schedule
