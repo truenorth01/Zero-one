@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://truenorth01.github.io/Zero-one/sitemap.xml

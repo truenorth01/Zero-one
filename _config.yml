@@ -1,0 +1,13 @@
+title: Zero-one
+description: "A voluntary, evidence-labeled living review of the 2026–2036 gates for human–AI cognitive coupling."
+url: "https://truenorth01.github.io"
+baseurl: "/Zero-one"
+lang: en-US
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+twitter:
+  card: summary
+exclude:
+  - CITATION.cff

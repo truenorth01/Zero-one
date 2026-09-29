@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you cite this living document, please cite it using these metadata."
+type: software
+title: "Zero-one (True North living document)"
+abstract: "A voluntary, evidence-labeled living review of the 2026–2036 gates for human–AI cognitive coupling."
+authors:
+  - alias: truenorth01
+version: 0.4.4
+date-released: 2026-09-28
+url: "https://truenorth01.github.io/Zero-one/"
+repository-code: "https://github.com/truenorth01/Zero-one"
+keywords:
+  - brain-computer-interface
+  - ai-alignment
+  - corrigibility
+  - whole-brain-emulation
+  - ai-safety
+  - neurotechnology
+  - living-review
+  - evidence-based
