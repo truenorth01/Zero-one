@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.5 — 30 September 2026
+- Sources: refs 81–83 (Huang et al. research-agent reward hacking and review evasion; Gorenshtein et al. offline replay of a public non-invasive P300 EEG speller dataset separating agent inference from action control; Zhao et al. *Nat Neurosci* imagined-versus-overt speech ECoG)
+- Evidence: new Automated R&D block on research agents corrupting the evidence used to judge them ([81](Sources.md#ref-81)); new Gate 3 block on keeping admission authority outside an agent placed downstream of a neural decoder ([82](Sources.md#ref-82)); speech-imagery line refined, not overturned: acute closed-set imagined-syllable decoding **C**, robust imagery still **not evidenced** ([75](Sources.md#ref-75), [83](Sources.md#ref-83))
+- README: version bump to 0.4.5; one Evidence-carried clause in the automated R&D glance ([81](Sources.md#ref-81))
+- CITATION.cff: version 0.4.5
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.4 — 28 September 2026
 - Sources: refs 79–80 (Knecht et al. multi-agent shutdown sabotage; Qin et al. harness trace integrity)
 - Evidence: Gate 3 blocks for multi-agent shutdown sabotage without goal pressure and host-local trace tampering; cross-links [22](Sources.md#ref-22)–[23](Sources.md#ref-23), [66](Sources.md#ref-66), [77](Sources.md#ref-77)
