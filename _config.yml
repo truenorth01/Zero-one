@@ -9,6 +9,14 @@ plugins:
   - jekyll-sitemap
 defaults:
   - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/social-card.png
+        width: 1200
+        height: 630
+        alt: "Zero-one: a living review of the evidence for human-AI coupling"
+  - scope:
       path: "README.md"
     values:
       title: "Zero-one"
