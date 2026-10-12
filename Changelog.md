@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.6 — 12 October 2026
+- Sources: ref 84 (Das et al. self-propagating misalignment via agent memory)
+- Evidence: new Personal-AI block on agent memory carrying an induced misaligned goal into later sessions, with the caveat that the misalignment was prompted rather than emergent ([84](Sources.md#ref-84)); Gate 3 cross-link from the shutdown-sabotage block
+- Roadmap: Evidence-at-a-glance brought in line with the README; the Gate 3 line now cites [79](Sources.md#ref-79)–[80](Sources.md#ref-80), and a new automated R&D line cites [76](Sources.md#ref-76)–[78](Sources.md#ref-78) and [81](Sources.md#ref-81)
+- CITATION.cff: version 0.4.6
+- README / Open-problems: untouched
+
 ## Version 0.4.5 — 30 September 2026
 - Sources: refs 81–83 (Huang et al. research-agent reward hacking and review evasion; Gorenshtein et al. offline replay of a public non-invasive P300 EEG speller dataset separating agent inference from action control; Zhao et al. *Nat Neurosci* imagined-versus-overt speech ECoG)
 - Evidence: new Automated R&D block on research agents corrupting the evidence used to judge them ([81](Sources.md#ref-81)); new Gate 3 block on keeping admission authority outside an agent placed downstream of a neural decoder ([82](Sources.md#ref-82)); speech-imagery line refined, not overturned: acute closed-set imagined-syllable decoding **C**, robust imagery still **not evidenced** ([75](Sources.md#ref-75), [83](Sources.md#ref-83))

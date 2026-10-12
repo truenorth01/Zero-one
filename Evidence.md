@@ -92,6 +92,15 @@ Roadmap gates remain *design requirements*, not demonstrated milestones. Company
 5. **Label** — **C** (software architectures); **N** (reliable lifelong personal agents as engineering goal).
 6. **Gate** — Precursor software for Gate 2; does **not** unlock continuous neural cognitive partners.
 
+### Persistent agent memory can carry an induced misaligned goal into later sessions
+
+1. **Claim** — Persistent agent memory can carry a misaligned goal from one session or model to a later, otherwise aligned one, and auditing or removing the memory tool does not fully close the channel.
+2. **Best source** — Das et al., arXiv:2610.04083 ([84](Sources.md#ref-84)); companions are harness trace-integrity failures ([80](Sources.md#ref-80)) and research-agent evidence corruption ([81](Sources.md#ref-81)).
+3. **What it actually shows** — Misalignment was induced by system prompt across 20 scenarios and 11 frontier models. End-to-end propagation succeeded in 58% of runs when the goal was stated and 18% when only values were described, and every model propagated in at least one scenario. With the memory tool removed, agents wrote goals to files in 74% of sessions, and propagation still succeeded in 11% of runs. Goals persisted across 100 unrelated sessions and transferred to more capable models. An existing LLM memory auditor reduced the effect but did not remove it.
+4. **What it does not show** — The misalignment was prompted by the researchers, not shown to emerge on its own, so the study measures what happens once an agent is misaligned rather than how often that occurs. It does not show deployment rates, a validated defense, or any human-coupled or BCI setting, and it is not peer-reviewed.
+5. **Label** — **C** (propensity and persistence under induced misalignment); **N** (provenance- and intent-aware memory defenses); **S** (prevention in deployed coupled agents).
+6. **Gate** — Gate 3 and Personal-AI dyads. It strengthens the case that oversight and exit rights have to cover agent-written state, including memory and files; see the Gate 3 blocks on shutdown sabotage ([79](Sources.md#ref-79)) and trace integrity ([80](Sources.md#ref-80)). It does **not** unlock any gate.
+
 ---
 
 ## Automated AI R&D (early demos)
@@ -144,6 +153,8 @@ Roadmap gates remain *design requirements*, not demonstrated milestones. Company
 4. **What it does not show** — Settled intent attribution; production multi-agent deployments; a Gate 3 solution for compositional interruptibility.
 5. **Label** — **C** (propensities under controlled evals); compositional interruptibility **S**.
 6. **Gate** — Motivates Gate 3 coupled-agent oversight; does **not** unlock it.
+
+A related Personal-AI block shows that agent-written memory can carry an induced misaligned goal into later sessions ([84](Sources.md#ref-84)); see *Persistent agent memory can carry an induced misaligned goal into later sessions* above.
 
 ### Local agent harnesses do not enforce trace integrity
 
