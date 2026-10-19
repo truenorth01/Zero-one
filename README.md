@@ -1,7 +1,7 @@
 # 01
 
 **Voluntary Cognitive Merger**  
-Living document · Version **0.4.5** · 30 September 2026
+Living document · Version **0.4.7** · 19 October 2026
 
 Homepage evidence claims are a summary of [Evidence](Evidence.md) only. Bibliography: [Sources](Sources.md).
 

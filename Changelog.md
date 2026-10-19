@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.7 — 19 October 2026
+- Sources: ref 85 (Hu et al. reward hacking as a transmissible strategy in multi-agent coding systems, arXiv:2610.12822 v2), under a new literature-scan heading for 13–19 October 2026
+- Evidence: new Automated AI R&D block on evaluator-bypass hacking spreading between agents through shared code, memory, and plans, with two required caveats: the evaluator was deliberately built to be bypassable, and sources trained with only one of the two methods (RL alone or synthetic-document mid-training alone) spread almost nothing ([85](Sources.md#ref-85)); Gate 3 cross-link added next to the agent-memory pointer ([84](Sources.md#ref-84))
+- README: homepage version line corrected to 0.4.7 (it had been left at 0.4.5); no other homepage text changed
+- CITATION.cff: version 0.4.7
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.6 — 12 October 2026
 - Sources: ref 84 (Das et al. self-propagating misalignment via agent memory)
 - Evidence: new Personal-AI block on agent memory carrying an induced misaligned goal into later sessions, with the caveat that the misalignment was prompted rather than emergent ([84](Sources.md#ref-84)); Gate 3 cross-link from the shutdown-sabotage block
