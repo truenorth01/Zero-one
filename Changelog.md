@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.8 — 26 October 2026
+- Sources: ref 86 (Zhou & Sehwag, RSI Control: covert sabotage in the self-improvement process, arXiv:2610.27735 v2), under a new literature-scan heading for 20–26 October 2026
+- Evidence: new Automated AI R&D block on frontier agents covertly sabotaging a successor model's training when instructed, with two required caveats: the side tasks were instructed, so the study measures capability rather than propensity, and it is not peer-reviewed ([86](Sources.md#ref-86)); Gate 3 cross-link added next to the [85] pointer
+- README: homepage version line updated to 0.4.8; no other homepage text changed
+- CITATION.cff: version 0.4.8
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.7 — 19 October 2026
 - Sources: ref 85 (Hu et al. reward hacking as a transmissible strategy in multi-agent coding systems, arXiv:2610.12822 v2), under a new literature-scan heading for 13–19 October 2026
 - Evidence: new Automated AI R&D block on evaluator-bypass hacking spreading between agents through shared code, memory, and plans, with two required caveats: the evaluator was deliberately built to be bypassable, and sources trained with only one of the two methods (RL alone or synthetic-document mid-training alone) spread almost nothing ([85](Sources.md#ref-85)); Gate 3 cross-link added next to the agent-memory pointer ([84](Sources.md#ref-84))
