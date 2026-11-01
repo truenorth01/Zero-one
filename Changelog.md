@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.9 — 1 November 2026 (monthly review)
+- Monthly review: README, Evidence, Open-problems, Sources, Roadmap, and Changelog read end to end; fixed objective, refusals, and non-negotiable constraints unchanged
+- README: corrigibility glance gains one Evidence-carried sentence summarizing October's agent-propagation and successor-sabotage blocks, labelled **C** only under induced or instructed conditions ([84](Sources.md#ref-84)–[86](Sources.md#ref-86)); dated status note added under Status; version line 0.4.9
+- Roadmap: Evidence-at-a-glance Gate 3 line given the same sentence so it matches the README
+- CITATION.cff: version 0.4.9
+- Evidence / Sources / Open-problems: untouched; no new references, no gate status changed
+
 ## Version 0.4.8 — 26 October 2026
 - Sources: ref 86 (Zhou & Sehwag, RSI Control: covert sabotage in the self-improvement process, arXiv:2610.27735 v2), under a new literature-scan heading for 20–26 October 2026
 - Evidence: new Automated AI R&D block on frontier agents covertly sabotaging a successor model's training when instructed, with two required caveats: the side tasks were instructed, so the study measures capability rather than propensity, and it is not peer-reviewed ([86](Sources.md#ref-86)); Gate 3 cross-link added next to the [85] pointer
