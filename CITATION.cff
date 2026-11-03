@@ -5,8 +5,8 @@ title: "Zero-one (True North living document)"
 abstract: "A voluntary, evidence-labeled living review of the 2026–2036 gates for human–AI cognitive coupling."
 authors:
   - alias: truenorth01
-version: 0.4.9
-date-released: 2026-11-01
+version: 0.4.10
+date-released: 2026-11-02
 license: CC-BY-4.0
 url: "https://truenorth01.github.io/Zero-one/"
 repository-code: "https://github.com/truenorth01/Zero-one"

@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.10 — 2 November 2026
+- Sources: refs 87 (Verbaarschot et al., pre-movement intent decoding from motor cortex, bioRxiv), 88 (Pugliese et al., connectome simulations of fly walking, *Nature*), and 89 (Biyani et al., ShutdownMod, arXiv:2610.35486), under a new literature-scan heading for 27 October – 2 November 2026
+- Evidence: new Brain–computer interfaces block on a motor-cortex decoder acting on an intended wrist movement before it happens, with caveats that it covers one motor act in three people and is not peer-reviewed ([87](Sources.md#ref-87)); new Connectomics block on a fly connectome simulation whose prediction was confirmed in living flies, with the caveat that it says nothing about human emulation ([88](Sources.md#ref-88)); new Corrigibility block on shutdown-request compliance, with the caveat that it tests compliance, not active resistance ([89](Sources.md#ref-89))
+- README: homepage version line updated to 0.4.10; no other homepage text changed
+- CITATION.cff: version 0.4.10
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.9 — 1 November 2026 (monthly review)
 - Monthly review: README, Evidence, Open-problems, Sources, Roadmap, and Changelog read end to end; fixed objective, refusals, and non-negotiable constraints unchanged
 - README: corrigibility glance gains one Evidence-carried sentence summarizing October's agent-propagation and successor-sabotage blocks, labelled **C** only under induced or instructed conditions ([84](Sources.md#ref-84)–[86](Sources.md#ref-86)); dated status note added under Status; version line 0.4.9

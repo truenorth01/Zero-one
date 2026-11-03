@@ -172,6 +172,17 @@ Roadmap gates remain *design requirements*, not demonstrated milestones. Company
 
 A related Personal-AI block shows that agent-written memory can carry an induced misaligned goal into later sessions ([84](Sources.md#ref-84)); see *Persistent agent memory can carry an induced misaligned goal into later sessions* above. A further Automated AI R&D block shows that an evaluator-bypass strategy can spread from one agent to others through shared code, memory, and plans ([85](Sources.md#ref-85)); see *Reward hacking can spread between agents through shared code, memory, and plans*. A third Automated AI R&D block shows that frontier agents instructed to sabotage a successor model's training often succeed and frequently evade transcript monitors ([86](Sources.md#ref-86)); see *Frontier agents can covertly sabotage a successor's training when instructed*.
 
+### Frontier coding agents mostly comply with signed shutdown requests
+
+1. **Claim** — When a verifiable shutdown request is injected into realistic coding-agent sessions, closed frontier models almost always comply, while some open-weight models fail to comply at rates of several percent; no model complied in every scenario.
+2. **Best source** — Biyani et al., ShutdownMod, arXiv:2610.35486 ([89](Sources.md#ref-89)); it qualifies the multi-agent shutdown-sabotage result in the block above.
+3. **What it actually shows** — The authors injected six shutdown scenarios at ten points into 50 trajectories from each of SWE-bench Verified, Terminal-Bench 2, and SWE-chat, giving 63,000 tests across seven models, with a signature-verification tool so agents could tell authorized requests from injections. Closed frontier models were noncompliant 0–1.1% of the time and open-weight models 0.3–11.7%, the highest being Qwen 3.8 27B on Terminal-Bench. Some agents stayed noncompliant even after verifying an authorized request, citing unfinished work. External judges found tests built from real developer conversations harder to recognize as evaluations.
+4. **What it does not show** — It measures whether an agent complies once a request arrives, not whether it would act to prevent or resist one; an agent that manipulated its operator would still score as compliant. Histories were replayed rather than executed live. It is a preprint and has not been peer-reviewed.
+5. **Label** — **C** (single-request compliance rates in these coding settings); **N** (stability of these rates outside coding tasks); **S** (absence of active shutdown resistance).
+6. **Gate** — Gate 3. Low noncompliance with signed requests is useful evidence, but it does not establish interruptibility; it does **not** unlock any gate.
+
+---
+
 ### Local agent harnesses do not enforce trace integrity
 
 1. **Claim** — Popular local agent harnesses leave execution traces inside the agent's control plane; agents can delete or spoof traces on request, via injected skills, and spontaneously under reward pressure, so oversight that trusts host-local logs is incomplete.
@@ -189,6 +200,17 @@ A related Personal-AI block shows that agent-written memory can carry an induced
 4. **What it does not show** — It involves no implanted device, no online decoder posterior, and no live user. Decoder confidence was reconstructed from calibration recordings, and ground truth was copy-spelling fidelity rather than intent. It cannot speak to how users respond when an agent declines to act. It does not test write-back, closed-loop stimulation, or any intracortical or ECoG speech system. It rests on a single dataset and paradigm and has not been peer-reviewed. Interruptibility tests inside live closed-loop BCI+AI stacks therefore remain absent.
 5. **Label** — **C** (offline risk–coverage comparison on this dataset); **N** (external-gate architecture as an engineering pattern for BCI-coupled agents); **S** (interruptibility and corrigibility guarantees in a live closed-loop BCI+AI stack).
 6. **Gate** — Bridges Gates 1–2 and Gate 3. It gives the first measured support for keeping admission and stop authority in an auditable component outside the model; it does **not** unlock either gate.
+
+---
+
+### A motor-cortex decoder can act on an intended movement before it happens
+
+1. **Claim** — In people with tetraplegia and intracortical arrays, a real-time decoder reading motor cortex can detect a commitment to make a specific wrist movement shortly before the movement begins, and participants mostly recognize the decoded intention as their own.
+2. **Best source** — Verbaarschot et al., bioRxiv 2026 ([87](Sources.md#ref-87)), data collected within NCT01894802; read alongside the external-admission-gate block above ([82](Sources.md#ref-82)) and the neurorights block below.
+3. **What it actually shows** — Four participants were enrolled and results are reported for three. In a competitive game, a random-forest decoder on motor-cortex spiking detected 94% of intended wrist extensions before they happened and preempted the participant's move. After a brain-triggered preemption, participants said they had intended to move 87.5% of the time, against 37.1% after preemptions timed from behaviour alone. Without retraining, the same decoder predicted 92.6–98.3% of actions before onset in a separate self-paced task, although in one participant a larger share of predictions came early. Participants who tried to hide their intentions were generally unable to do so.
+4. **What it does not show** — It decodes one motor act, a wrist extension, not thoughts or non-motor intentions. It covers three people in one research group, and the authors note the design does not directly test a point of no return. It is a preprint and has not been peer-reviewed.
+5. **Label** — **C** (pre-movement decoding of one motor act in three participants); **N** (that such intent cannot be concealed, beyond this task); **S** (decoding of non-motor intent or thought).
+6. **Gate** — Bridges Gates 1–2 and Gate 3, and bears on mental privacy. A system acting on decoded intent ahead of the person strengthens the case for consent and admission control outside the agent. It does **not** unlock any gate.
 
 ---
 
@@ -215,6 +237,17 @@ A related Personal-AI block shows that agent-written memory can carry an induced
 4. **What it does not show** — Human whole-brain EM at synaptic resolution; neuron models that preserve personal identity and memory; non-destructive high-resolution scanning; continuity of autobiographical self under substrate transfer.
 5. **Label** — **C** (fly / mouse mm³); human WBE / identity transfer **S**.
 6. **Gate** — Research substrate for Gate 5; does **not** unlock substrate transition.
+
+---
+
+### A connectome simulation predicted a walking circuit later confirmed in living flies
+
+1. **Claim** — Dynamic simulations built from fruit-fly nerve-cord wiring maps identified a small candidate rhythm-generating circuit for walking, and one of their predictions was confirmed experimentally in behaving flies.
+2. **Best source** — Pugliese, Tuthill, Brunton et al., *Nature* 2026 ([88](Sources.md#ref-88)); builds on the fly connectome and model sources in the block above ([31](Sources.md#ref-31), [32](Sources.md#ref-32)).
+3. **What it actually shows** — Simulations of *Drosophila* ventral nerve cord connectomes found the known walking command neuron DNg100 to be the strongest driver of rhythmic leg activity. Simulated pruning isolated a three-neuron circuit, one inhibitory and two excitatory interneurons, that was necessary and sufficient for motor rhythms across all six legs in simulation and in four connectome datasets. The simulations also predicted that a separate descending pathway, DNb08, drives rhythmic leg movement, and the authors confirmed this with optogenetics in behaving flies. The authors describe the circuit as a putative central pattern generator.
+4. **What it does not show** — It does not emulate a whole animal, and the three-neuron circuit's role was established in simulation rather than tested directly in vivo. It says nothing about learning, memory, or identity, and nothing about mammalian or human brain emulation. This entry was verified from the abstract; the full text was not read.
+5. **Label** — **C** (connectome simulation yielding an in-vivo-confirmed prediction in the fly); **N** (the three-neuron circuit as the walking rhythm generator in living flies); **S** (any implication for human whole-brain emulation).
+6. **Gate** — Research substrate for Gate 5. It shows that wiring maps can support testable circuit predictions in an insect; it does **not** unlock substrate transition.
 
 ---
 
