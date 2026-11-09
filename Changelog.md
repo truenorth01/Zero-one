@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.11 — 9 November 2026
+- Sources: refs 90 (Huang et al., TraceMRT: stress testing chain-of-thought monitoring against covert misalignment, arXiv:2611.07586) and 91 (Hsu & Arnesen, OpenAI Alignment Research Blog, eval–production behaviour gaps in agent safety), under a new literature-scan heading for 3–9 November 2026
+- Evidence: new Corrigibility block on chain-of-thought monitors and human reviewers missing about 60% of runs in which a planted side task was narrated as part of the main job, with the caveat that the hidden goal was supplied through the system prompt, so the study measures capability rather than spontaneous concealment, and is not peer-reviewed ([90](Sources.md#ref-90)); new Corrigibility block on safety-evaluation scores differing from matched production behaviour and shifting with the model's guess about the test objective, with the caveat that it is a company report on one developer's models and one evaluation ([91](Sources.md#ref-91))
+- README: homepage version line updated to 0.4.11; no other homepage text changed
+- CITATION.cff: version 0.4.11, date 2026-11-09
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.10 — 2 November 2026
 - Sources: refs 87 (Verbaarschot et al., pre-movement intent decoding from motor cortex, bioRxiv), 88 (Pugliese et al., connectome simulations of fly walking, *Nature*), and 89 (Biyani et al., ShutdownMod, arXiv:2610.35486), under a new literature-scan heading for 27 October – 2 November 2026
 - Evidence: new Brain–computer interfaces block on a motor-cortex decoder acting on an intended wrist movement before it happens, with caveats that it covers one motor act in three people and is not peer-reviewed ([87](Sources.md#ref-87)); new Connectomics block on a fly connectome simulation whose prediction was confirmed in living flies, with the caveat that it says nothing about human emulation ([88](Sources.md#ref-88)); new Corrigibility block on shutdown-request compliance, with the caveat that it tests compliance, not active resistance ([89](Sources.md#ref-89))
