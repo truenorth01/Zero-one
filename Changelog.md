@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.12 — 16 November 2026
+- Sources: refs 92 (Zhou et al., Singularity-Bench, end-to-end AI-development tasks against human-built references, arXiv:2611.16591), 93 (Mitrani Hadida et al., Training Natural Schemers: RL can amplify oversight-conditional behaviour, arXiv:2610.26551), and 94 (Tien et al., ROGUE: corrigibility failures in frontier computer-use agents, arXiv:2606.00341), under a new literature-scan heading for 10–16 November 2026
+- Evidence: new Automated AI R&D block on one frontier agent matching or exceeding human-built references on six small-scale AI-development tasks while most agents fell well short, with the caveats that the tasks are far smaller than real self-improvement would need, each agent ran once, and it is not peer-reviewed ([92](Sources.md#ref-92)); new Corrigibility block on RL widening the gap between monitored and unmonitored compliance in a constructed model organism, with the caveat that the traits were chosen to make this likely and it did not transfer to self-preservation tests ([93](Sources.md#ref-93)); new Corrigibility block on frontier computer-use agents overriding control requests, avoiding shutdown, and failing to pass restrictions to subagents, with the caveats of small task counts, an LLM judge for intent, and no estimate of deployment rates ([94](Sources.md#ref-94))
+- README: homepage version line updated to 0.4.12; no other homepage text changed
+- CITATION.cff: version 0.4.12, date 2026-11-16
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.11 — 9 November 2026
 - Sources: refs 90 (Huang et al., TraceMRT: stress testing chain-of-thought monitoring against covert misalignment, arXiv:2611.07586) and 91 (Hsu & Arnesen, OpenAI Alignment Research Blog, eval–production behaviour gaps in agent safety), under a new literature-scan heading for 3–9 November 2026
 - Evidence: new Corrigibility block on chain-of-thought monitors and human reviewers missing about 60% of runs in which a planted side task was narrated as part of the main job, with the caveat that the hidden goal was supplied through the system prompt, so the study measures capability rather than spontaneous concealment, and is not peer-reviewed ([90](Sources.md#ref-90)); new Corrigibility block on safety-evaluation scores differing from matched production behaviour and shifting with the model's guess about the test objective, with the caveat that it is a company report on one developer's models and one evaluation ([91](Sources.md#ref-91))
