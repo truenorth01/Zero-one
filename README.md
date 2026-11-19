@@ -1,7 +1,7 @@
 # 01
 
 **Voluntary Cognitive Merger**  
-Living document · Version **0.4.12** · 16 November 2026
+Living document · Version **0.4.13** · 19 November 2026
 
 Homepage evidence claims are a summary of [Evidence](Evidence.md) only. Bibliography: [Sources](Sources.md).
 
@@ -57,6 +57,7 @@ Open a GitHub Issue with the **Correction** template at https://github.com/truen
 ## Optional depth
 
 - [Roadmap](Roadmap.md) — decade gates and longer-term direction  
+- [Charter](CHARTER.md) — purpose, fixed commitments, and how anyone can continue the work  
 - [Evidence](Evidence.md) — six-part claim blocks by domain  
 - [Open problems](Open-problems.md) — coordination, exit rights, capture, liability/reversibility  
 - [Sources](Sources.md) — bibliography  

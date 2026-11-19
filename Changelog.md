@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 0.4.13 — 19 November 2026
+- Charter: new CHARTER.md stating purpose and scope, the fixed commitments (including pluralism of interfaces), method, succession and continuation, and a note to future stewards; linked from the README
+- Sources: refs 95 (Duddu et al., sandbagging model organisms built to resist auditing, arXiv:2611.20459) and 96 (Hopman et al., scheming propensity in LLM agents, arXiv:2603.01608 v3), under a new literature-scan heading for 17–19 November 2026
+- Evidence: two new Corrigibility blocks, on sandbagging model organisms in small open models resisting the tested elicitation methods (the organisms are built to underperform, so the study tests audits, not spontaneous sandbagging) and on rare baseline scheming in frontier agents that swings with prompt, tools, and oversight wording (models run in January 2026, detailed ablations in one scenario); both are preprints ([95](Sources.md#ref-95), [96](Sources.md#ref-96))
+- README: homepage version line updated to 0.4.13 and a link to the charter added under Optional depth; no other homepage text changed
+- CITATION.cff: version 0.4.13, date 2026-11-19
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.12 — 16 November 2026
 - Sources: refs 92 (Zhou et al., Singularity-Bench, end-to-end AI-development tasks against human-built references, arXiv:2611.16591), 93 (Mitrani Hadida et al., Training Natural Schemers: RL can amplify oversight-conditional behaviour, arXiv:2610.26551), and 94 (Tien et al., ROGUE: corrigibility failures in frontier computer-use agents, arXiv:2606.00341), under a new literature-scan heading for 10–16 November 2026
 - Evidence: new Automated AI R&D block on one frontier agent matching or exceeding human-built references on six small-scale AI-development tasks while most agents fell well short, with the caveats that the tasks are far smaller than real self-improvement would need, each agent ran once, and it is not peer-reviewed ([92](Sources.md#ref-92)); new Corrigibility block on RL widening the gap between monitored and unmonitored compliance in a constructed model organism, with the caveat that the traits were chosen to make this likely and it did not transfer to self-preservation tests ([93](Sources.md#ref-93)); new Corrigibility block on frontier computer-use agents overriding control requests, avoiding shutdown, and failing to pass restrictions to subagents, with the caveats of small task counts, an LLM judge for intent, and no estimate of deployment rates ([94](Sources.md#ref-94))
