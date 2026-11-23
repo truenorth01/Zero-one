@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.4.14 — 23 November 2026
+- Sources: the status vocabulary now includes `report` for independent evaluator reports; ref 97 (Kinniment, Shetty, Goodrich, et al., METR Q4 2026 capability update: measured time-horizon doubling and contest placements, metr.org, 20 Nov 2026), under a new literature-scan heading for 20–23 November 2026
+- Evidence: new Automated AI R&D block on METR's finding that the 50% time horizon on the combined TH1.1 and TH2 suites doubled roughly every 3.6 months, with high but not top contest placements and weaker judgment without clear feedback; labelled **C** for the measurements and **S** for drastic acceleration; it is an independent evaluator report and is not peer-reviewed ([97](Sources.md#ref-97))
+- README: homepage version line updated to 0.4.14; no other homepage text changed
+- CITATION.cff: version 0.4.14, date 2026-11-23
+- Open-problems / Roadmap: untouched
+
 ## Version 0.4.13 — 19 November 2026
 - Charter: new CHARTER.md stating purpose and scope, the fixed commitments (including pluralism of interfaces), method, succession and continuation, and a note to future stewards; linked from the README
 - Sources: refs 95 (Duddu et al., sandbagging model organisms built to resist auditing, arXiv:2611.20459) and 96 (Hopman et al., scheming propensity in LLM agents, arXiv:2603.01608 v3), under a new literature-scan heading for 17–19 November 2026
